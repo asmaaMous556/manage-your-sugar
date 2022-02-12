@@ -1,0 +1,207 @@
+.u-image {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)), url('C:/Users/mokae/OneDrive/Desktop/manage-your-sugar/assets/u-image-1.jpeg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.u-text-1 {
+    margin-top: 130px;
+    color: #bfa065;
+    font-weight: 700;
+    font-size: 6rem;
+    font-family: Oswald, sans-serif !important;
+    /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s;
+}
+
+.u-text-2 {
+    font-weight: 400;
+    line-height: 1.6;
+    font-size: 1rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #808080;
+}
+
+.u-btn {
+    border: 2px solid #bfa065;
+    color: #808080;
+    line-height: 1.4;
+    border-radius: 50px;
+    padding: 10px 35px;
+    font-weight: normal;
+    font-size: 1.1rem;
+}
+
+.u-image-2 {
+    position: relative;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.05), rgba(199, 180, 180, 0.05));
+}
+
+.u-image-card-2 {
+    position: relative;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.05), rgba(199, 180, 180, 0.05));
+}
+
+.cards-1 {
+    left: 100px;
+    right: 100px;
+    top: 80%;
+}
+
+.card-text {
+    font-style: italic;
+    margin: 20px 30px 0;
+    font-weight: 400;
+    line-height: 1.6;
+    font-size: 1rem;
+    color: #808080
+}
+
+.card-title {
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 1.5rem;
+    color: black;
+}
+
+.card {
+    border: none;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.u-text-3 {
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 2.25rem;
+}
+
+.u-text-4 {
+    font-weight: 400;
+    line-height: 1.6;
+    font-size: 1rem;
+}
+
+.img-4 {
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    max-width: 100%;
+    border: 5px solid transparent;
+}
+
+.text-6-border {
+    border: 2px solid #bfa065;
+    min-height: 280px;
+    padding: 0px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-5 {
+    background-image: url('C:/Users/mokae/OneDrive/Desktop/manage-your-sugar/assets/greeb.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-position: 50% 50%;
+    min-height: 280px;
+    max-width: 100%;
+}
+
+.image-6 {
+    background-image: url('C:/Users/mokae/OneDrive/Desktop/manage-your-sugar/assets/orangeand.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-position: 50% 50%;
+    min-height: 280px;
+    max-width: 100%;
+}
+
+.image-7 {
+    background-image: url('C:/Users/mokae/OneDrive/Desktop/manage-your-sugar/assets/berryyoughart.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-position: 50% 50%;
+    min-height: 280px;
+    max-width: 100%;
+}
+
+.text-7 {
+    min-height: 280px;
+    padding: 60px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.bg-dark {
+    background-color: #333333;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-txt {
+    color: white;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.card-icon {
+    width: 64px;
+    height: 64px;
+    margin-top: 2rem;
+}
+
+@media screen and (max-width:540px) {
+    .u-text-1 {
+        font-size: 3rem;
+        margin-top: 25%;
+    }
+    .text-7 {
+        padding-top: 30px;
+    }
+}
+
+@media screen and (min-width:720px) {
+    .u-text-2 {
+        width: 75%;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .cards-1 {
+        position: absolute;
+        top: -36px;
+    }
+    .u-image {
+        height: 120vh;
+    }
+    .u-image-card-2 {
+        height: 60vh;
+    }
+}
+
+.fadeIn {
+    animation: fadeInLeft 2s;
+}
