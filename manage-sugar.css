@@ -1,5 +1,5 @@
 .u-image {
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)), url('C:/Users/mokae/OneDrive/Desktop/manage-your-sugar/assets/u-image-1.jpeg');
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)), url('./assets/u-image-1.jpeg');
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
@@ -112,7 +112,7 @@
 }
 
 .image-5 {
-    background-image: url('C:/Users/mokae/OneDrive/Desktop/manage-your-sugar/assets/greeb.jpeg');
+    background-image: url('./assets/greeb.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -123,7 +123,7 @@
 }
 
 .image-6 {
-    background-image: url('C:/Users/mokae/OneDrive/Desktop/manage-your-sugar/assets/orangeand.jpeg');
+    background-image: url('./assets/orangeand.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -134,7 +134,7 @@
 }
 
 .image-7 {
-    background-image: url('C:/Users/mokae/OneDrive/Desktop/manage-your-sugar/assets/berryyoughart.jpeg');
+    background-image: url('./assets/berryyoughart.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -204,4 +204,22 @@
 
 .fadeIn {
     animation: fadeInLeft 2s;
+}
+
+.bg-1 {
+    background-image: url('./assets/berries-1.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-position: 50% 50%;
+    min-height: 280px;
+    max-width: 100%;
+}
+
+.bg-2 {
+    background-image: url('./assets/berries-2.jpeg');
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
 }
