@@ -191,6 +191,12 @@
         position: absolute;
         top: -36px;
     }
+    .u-image {
+        height: 76vh;
+    }
+    .u-image-card-2 {
+        height: 76vh;
+    }
 }
 
 @media screen and (min-width:1024px) {
@@ -204,10 +210,6 @@
     .u-image-card-2 {
         height: 60vh;
     }
-}
-
-.fadeIn {
-    animation: fadeInLeft 2s;
 }
 
 .bg-1 {
