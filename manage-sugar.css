@@ -183,7 +183,7 @@
     }
 }
 
-@media screen and (min-width:576px) {
+@media screen and (min-width:720px) {
     .u-text-2 {
         width: 75%;
     }
@@ -191,11 +191,14 @@
         position: absolute;
         top: -36px;
     }
+}
+
+@media screen and (max-width:768px) {
     .u-image {
-        height: 73vh;
+        height: 215vh;
     }
     .u-image-card-2 {
-        height: 75vh;
+        height: 233vh;
     }
 }
 
@@ -210,6 +213,10 @@
     .u-image-card-2 {
         height: 60vh;
     }
+}
+
+.fadeIn {
+    animation: fadeInLeft 2s;
 }
 
 .bg-1 {
