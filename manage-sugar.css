@@ -183,7 +183,7 @@
     }
 }
 
-@media screen and (min-width:650px) {
+@media screen and (min-width:576px) {
     .u-text-2 {
         width: 75%;
     }
@@ -192,10 +192,10 @@
         top: -36px;
     }
     .u-image {
-        height: 60vh;
+        height: 73vh;
     }
     .u-image-card-2 {
-        height: 65vh;
+        height: 75vh;
     }
 }
 
